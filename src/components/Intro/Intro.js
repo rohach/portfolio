@@ -25,9 +25,9 @@ const Intro = () => {
             deleteSpeed={80}
             delaySpeed={2000}
             words={[
-              " a student.",
               " from Hetauda, Nepal.",
-              " aiming to become a Full stack web developer.",
+              " a student.",
+              " a Full stack web developer.",
             ]}
           />
         </p>

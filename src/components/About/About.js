@@ -34,13 +34,19 @@ const About = () => {
               <small>30+ Completed Projects</small>
             </article>
           </div>
-          <p>
-            My name is Rohan Chaulagain and I am a Full-Stack Frontend Web
-            Developer, currently living in Kathmandu, Nepal. I have completed my
-            Bachelor of Science in Computer Science from Softwarica College of
-            IT & Ecommerce, and my primary focus and inspiration for my studies
-            is Web Development. In my free time, I study human computer
-            interface and the psychology of human computer interface.
+          <p id="about__intro">
+            My name is Rohan Chaulagain and I am a{" "}
+            <strong>Full-Stack Frontend Web Developer</strong> , currently
+            living in Kathmandu, Nepal. I have completed my{" "}
+            <strong>Bachelor of Science in Computer Science</strong> from
+            <strong>
+              <a href="https://softwarica.edu.np/" target="_blank">
+                {" "}
+                Softwarica College of IT & Ecommerce
+              </a>
+            </strong>
+            , and my primary focus and inspiration for my studies is{" "}
+            <strong>Web Development.</strong>
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
