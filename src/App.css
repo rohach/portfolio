@@ -1,23 +1,85 @@
-/* .App {
-  text-align: center;
+.top {
+  background: url("./components//assets//bg_star.png");
+  background-size: cover !important;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Line */
+.line:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  left: 0;
+  margin: 0 auto;
+  top: 12vh;
+  right: 0;
+  bottom: 0;
+  background-color: var(--text-color);
+}
+/*Small Line */
+.smallLine:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20vw;
+  height: 1px;
+  left: 0;
+  margin: 0 auto;
+  top: 10vh;
+  right: 0;
+  bottom: 0;
+  background-color: var(--text-color);
+}
+/*Small Line */
+.smallLineSecond:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10vw;
+  height: 1px;
+  left: 0;
+  margin: 0 auto;
+  top: 13vh;
+  right: 0;
+  bottom: 0;
+  background-color: var(--text-color);
+}
+@media screen and (max-width: 1024px) {
+  .top {
+    height: 100vh;
+  }
+  .smallLineSecond:before {
+    top: 12vh;
+  }
+}
+@media screen and (max-width: 968px) {
+  .smallLine:before {
+    top: 7vh;
+  }
+  .smallLineSecond:before {
+    top: 8.8vh;
+    height: 1.3px;
+  }
 }
 
-.App-header {
-  background-color: var(--bg-color);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* MEDIA QUERIES (SMALL) */
+@media screen and (max-width: 600px) {
+  .smallLine:before {
+    top: 9vh;
+  }
+  .smallLineSecond:before {
+    top: 11vh;
+    height: 1.3px;
+  }
 }
-
-.App-link {
-  color: #61dafb;
-} */
+@media screen and (max-width: 450px) {
+  .smallLine:before {
+    top: 9vh;
+  }
+  .smallLineSecond:before {
+    top: 11vh;
+    height: 1.3px;
+  }
+}

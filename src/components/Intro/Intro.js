@@ -12,7 +12,7 @@ const Intro = () => {
         <div className="intro__container">
           ROHAN <br /> CHAULAGAIN
         </div>
-        <p className="intro__bottom">I am a frontend web developer. </p>
+        <p className="intro__bottom">I am a full-stack web developer. </p>
         <CTA />
         <Headersocials />
         <a href="#contact" className="scroll__down">

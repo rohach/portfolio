@@ -17,8 +17,12 @@
   place-items: center;
 }
 .about__me-image {
-  background-color: rgb(255, 183, 0);
+  background-color: var(--bg-color);
   border-radius: 23% 77% 50% 50% / 30% 42% 58% 70%;
+  z-index: 2;
+}
+.about__me-image > img {
+  z-index: 2;
 }
 .about__me-image:hover {
   transform: rotate(0deg);
