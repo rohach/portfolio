@@ -1,5 +1,5 @@
 nav {
-  background: var(--text-color) !important;
+  background: rgba(0, 0, 0, 0.5) !important;
   width: max-content;
   display: block;
   padding: 0.4rem 1.7rem;
@@ -23,6 +23,7 @@ nav a {
   font-size: 1.1rem;
 }
 nav a:hover {
+  background: transparent;
   color: var(--text-color-primary);
 }
 nav a.active {

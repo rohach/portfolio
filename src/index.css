@@ -26,8 +26,9 @@ another text: #869ba9;
   box-sizing: border-box;
   text-decoration: none;
   overflow-x: hidden;
-  background: url("./components//assets//bg_star.png");
-  background-size: cover !important;
+  /* background: url("./components//assets//bg_star.png");
+  background-size: cover !important; */
+  background-color: var(--bg-color);
 }
 
 :root {
@@ -118,6 +119,7 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
 /* MEDIA QUERIES (MEDIUM) */
 @media screen and (max-width: 1024px) {
   .container {

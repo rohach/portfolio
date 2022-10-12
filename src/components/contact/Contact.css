@@ -44,7 +44,7 @@ textarea {
   background: transparent;
   border: 1px solid var(--text-color);
   resize: none;
-  color: var(--color-white);
+  color: var(--text-secondary);
 }
 /* MEDIA QUERIES (MEDIUM) */
 @media screen and (max-width: 1024px) {

@@ -4,25 +4,25 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <header className="container">
+      <header className="container header__container">
         <div className="nav">
           <ul className="nav__list">
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="/" className="logo">
+              <a href="#home" className="logo">
                 ROHAN
               </a>
             </li>
             <li>
-              <a href="/">Experience</a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
-              <a href="/">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

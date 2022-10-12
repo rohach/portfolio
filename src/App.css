@@ -53,13 +53,16 @@
   .smallLineSecond:before {
     top: 12vh;
   }
+  .footer {
+    margin-bottom: 3.5vh;
+  }
 }
 @media screen and (max-width: 968px) {
   .smallLine:before {
-    top: 7vh;
+    top: 8.5vh;
   }
   .smallLineSecond:before {
-    top: 8.8vh;
+    top: 10.5vh;
     height: 1.3px;
   }
 }
@@ -76,10 +79,19 @@
 }
 @media screen and (max-width: 450px) {
   .smallLine:before {
-    top: 9vh;
+    top: 8vh;
   }
   .smallLineSecond:before {
-    top: 11vh;
+    top: 10vh;
+    height: 1.3px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .smallLine:before {
+    top: 12vh;
+  }
+  .smallLineSecond:before {
+    top: 14vh;
     height: 1.3px;
   }
 }
