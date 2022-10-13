@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
   <!-- AOS -->
+
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- GSAP -->
@@ -32,11 +33,14 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 2000,
-      once: true,
+      offset: 100, // offset (in px) from the original trigger point
+      duration: 1000, // values from 0 to 3000, with step 50ms
+      // easing: 'ease-in-out', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: true, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     });
   </script>
-
   <!-- GSAP -->
   <script src="https://unpkg.com/split-type"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>

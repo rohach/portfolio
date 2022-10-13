@@ -68,7 +68,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 3;
 }
 .slider {
   background-color: rgb(97, 105, 109);

@@ -4,6 +4,7 @@ import Me from "../assets/me.png";
 import { BsFillAwardFill } from "react-icons/bs";
 import { FaUserSecret } from "react-icons/fa";
 import { AiFillProject } from "react-icons/ai";
+import Aos from "aos";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           <img src={Me} alt="My_Image" />
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          <div className="about__cards" data-aos="fade">
             <article className="about__card">
               <BsFillAwardFill className="about__icon" />
               <h5>Experience</h5>
@@ -34,7 +35,7 @@ const About = () => {
               <small>30+ Completed Projects</small>
             </article>
           </div>
-          <p id="about__intro">
+          <p id="about__intro" data-aos="zoom-in">
             My name is Rohan Chaulagain and I am a{" "}
             <strong>Full-Stack Frontend Web Developer</strong> , currently
             living in Kathmandu, Nepal. I have completed my{" "}
@@ -48,7 +49,7 @@ const About = () => {
             , and my primary focus and inspiration for my studies is{" "}
             <strong>Web Development.</strong>
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" data-aos="zoom-in">
             Let's Talk
           </a>
         </div>
