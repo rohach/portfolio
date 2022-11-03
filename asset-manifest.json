@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d4fe0154.css",
+    "main.js": "/portfolio/static/js/main.e7f60706.js",
+    "static/media/agricfarm.png": "/portfolio/static/media/agricfarm.f9088b45f67ad64e6807.png",
+    "static/media/construct.png": "/portfolio/static/media/construct.7ea1e441baf2d601b37e.png",
+    "static/media/me.png": "/portfolio/static/media/me.4f78ca70110f91c9a37f.png",
+    "static/media/bg_star.png": "/portfolio/static/media/bg_star.9d88c6860be008980172.png",
+    "static/media/news.png": "/portfolio/static/media/news.168a4662e4653c6c814f.png",
+    "static/media/hamro.png": "/portfolio/static/media/hamro.6533a00e041342c80429.png",
+    "static/media/e-learner.png": "/portfolio/static/media/e-learner.d5dbd15e0adca6b70074.png",
+    "static/media/carmax.png": "/portfolio/static/media/carmax.982a170b2efba0382aad.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.323b0cfb339f68b5733d.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.d4fe0154.css.map": "/portfolio/static/css/main.d4fe0154.css.map",
+    "main.e7f60706.js.map": "/portfolio/static/js/main.e7f60706.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4fe0154.css",
+    "static/js/main.e7f60706.js"
+  ]
+}
