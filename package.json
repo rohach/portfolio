@@ -1,7 +1,7 @@
 {
   "name": "smaple",
   "version": "0.1.0",
-  "homepage": "https://rohach.github.io/newPortfolio",
+  "homepage": "https://rohach.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.28",
