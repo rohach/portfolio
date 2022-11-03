@@ -38,6 +38,8 @@
   color: var(--text-color);
   border: 1px solid var(--text-color);
   transition: var(--transition);
+  margin-bottom: 0.5rem;
+  margin-left: 0.1rem;
 }
 .project__content {
   display: grid;

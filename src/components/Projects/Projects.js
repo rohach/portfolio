@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import Aos from "aos";
-import elarner from "../assets/e-learner.png";
+import elearner from "../assets/e-learner.png";
 import carmax from "../assets/carmax.png";
 import construct from "../assets/construct.png";
 import agricfarm from "../assets/agricfarm.png";
@@ -17,7 +17,7 @@ const project = () => {
       <div className="smallLineSecond" data-aos="fade-in"></div>
       <div className="container project__container">
         <div data-aos="fade-right">
-          <img src={elarner} alt="e-learner" className="projects__image" />
+          <img src={elearner} alt="e-learner" className="projects__image" />
           <small className="small__container">
             <div>ReactJS</div>
             <div>NodeJS</div>
