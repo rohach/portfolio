@@ -14,21 +14,22 @@ const Header = () => {
     tl.to(".introSlider", { y: "-100%", duration: 1 }, "-=1");
     tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
     tl.fromTo(".nav__list", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+    tl.fromTo(".line", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
   });
   return (
     <>
       <header className="container header__container">
-        <div class="introSlider">
-          <div class="introSlider-text">
-            <h1 class="hide">
-              <span class="text">Hello</span>
+        <div className="introSlider">
+          <div className="introSlider-text">
+            <h1 className="hide">
+              <span className="text">Hello</span>
             </h1>
-            <h1 class="hide">
-              <span class="text">beautiful</span>
+            <h1 className="hide">
+              <span className="text">beautiful</span>
             </h1>
 
-            <h1 class="hide">
-              <span class="text">people.</span>
+            <h1 className="hide">
+              <span className="text">people.</span>
             </h1>
           </div>
         </div>
@@ -46,7 +47,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#experience">Experience</a>
+              <a href="#project">Projects</a>
             </li>
             <li>
               <a href="#contact">Contact</a>

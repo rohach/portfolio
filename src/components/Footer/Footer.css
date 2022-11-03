@@ -29,3 +29,31 @@
   bottom: 0;
   background-color: var(--text-color);
 }
+.top__btn {
+  background-color: var(--text-color) !important;
+  color: white !important;
+  transition: ease;
+}
+.top__btn svg {
+  background-color: var(--text-color) !important;
+  color: var(--bg-color);
+  transition: ease;
+}
+/* MEDIA QUERIES (MEDIUM) */
+@media screen and (max-width: 1024px) {
+  .top__btn {
+    display: none;
+  }
+  .top__btn svg {
+    display: none;
+  }
+}
+/* MEDIA QUERIES (SMALL) */
+@media screen and (max-width: 600px) {
+  .top__btn {
+    display: none;
+  }
+  .top__btn svg {
+    display: none;
+  }
+}

@@ -18,20 +18,20 @@ const Headersocials = () => {
     tl.fromTo(
       ".intro__bottom",
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 },
+      { opacity: 1, duration: 1 },
       "-=1"
     );
-    tl.fromTo(".cta", { opacity: 0 }, { opacity: 1, duration: 1.5 }, "-=1");
+    tl.fromTo(".cta", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
     tl.fromTo(
       ".scroll__down",
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 },
+      { opacity: 1, duration: 1 },
       "-=1"
     );
     tl.fromTo(
       ".header__socials",
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 },
+      { opacity: 1, duration: 1 },
       "-=1"
     );
   });

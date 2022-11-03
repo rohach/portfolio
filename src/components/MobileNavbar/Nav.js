@@ -28,9 +28,9 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        href="#project"
+        onClick={() => setActiveNav("#project")}
+        className={activeNav === "#project" ? "active" : ""}
       >
         <BsFillBookmarkStarFill />
       </a>
