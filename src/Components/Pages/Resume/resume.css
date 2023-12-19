@@ -1,0 +1,132 @@
+.resume_container {
+  height: 100vh;
+  position: relative;
+}
+.resume_container_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.resume_container_inner > * {
+  flex-basis: 100%;
+}
+.resume {
+  display: flex;
+}
+.resume_left {
+  align-content: center;
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  height: inherit;
+  position: relative;
+  width: min-content;
+}
+.dot {
+  flex: none;
+  height: 12px;
+  width: 12px;
+  background-color: var(--text);
+  border-radius: 50%;
+}
+
+.line {
+  flex: 1 0 0px;
+  height: 1px;
+  overflow: hidden;
+  position: relative;
+  width: 1px;
+  background-color: var(--text);
+}
+.resume_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.resume_container_left {
+  font-size: 4rem;
+}
+.resume_container_left_inner {
+  opacity: 0;
+}
+.resume_container > * {
+  flex-basis: 100%;
+}
+.resume_right {
+  padding: 1rem 4rem;
+  overflow: hidden;
+}
+.resume_right > * {
+  line-height: 2;
+}
+.institution_name {
+  font-size: 1.2rem;
+}
+.gpa,
+.year {
+  font-size: 1rem;
+}
+.resumeAnimation {
+  overflow: hidden;
+}
+.resumeAnimationElem {
+  transform: translateY(100%);
+}
+.resumeAnimationWordsElem {
+  opacity: 0;
+}
+
+@media (max-width: 1024px) {
+  .resume_container_left {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .resume_container_inner {
+    flex-direction: column;
+  }
+  .resume_container_left {
+    font-size: 3rem;
+    width: 100% !important;
+  }
+  .about_heading {
+    font-size: 1.5rem;
+  }
+  .about_me {
+    font-size: 3.5rem;
+  }
+  .about_desc {
+    font-size: 0.85rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .about_heading {
+    font-size: 1rem;
+  }
+  .about_me {
+    font-size: 3rem;
+  }
+  .about_desc {
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  .about_right {
+    margin-top: -5rem !important;
+  }
+}

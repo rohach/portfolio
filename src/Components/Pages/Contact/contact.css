@@ -1,0 +1,147 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vw;
+  margin-top: 2rem;
+}
+.contact_left {
+  width: 60%;
+}
+.contact_right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.info_box {
+  margin-left: auto;
+}
+.info {
+  color: var(--text);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.contact_info,
+.copyright,
+.location {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.social_icons {
+  display: flex;
+  gap: 1rem;
+}
+.social_icons > * {
+  font-size: 2rem;
+}
+.footer_icon :hover {
+  color: rgb(214, 214, 214) !important;
+  transition: var(--transition);
+}
+/* contact */
+.contact_form .input_box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.top_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.box_margin {
+  margin-top: 4rem !important;
+}
+.contact_form .input_box input,
+.contact_form .input_box textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contact_form .input_box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contact_form .input_box input:focus ~ span,
+.contact_form .input_box input:valid ~ span,
+.contact_form .input_box textarea:focus ~ span,
+.contact_form .input_box textarea:valid ~ span {
+  color: #666;
+  font-size: 12px;
+  transform: translateY(-20px) !important;
+}
+
+.contact_form .input_box input[type="submit"] {
+  width: fit-content;
+  margin-top: 1rem;
+  background-color: var(--text);
+  color: var(--bg) !important;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  transition: var(--transition);
+  border-radius: var(--border-radius);
+}
+
+.contact_form .input_box input[type="submit"]:hover {
+  scale: 0.95;
+}
+
+@media (max-width: 991px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  .contact_form {
+    width: 100%;
+  }
+  .contact_right {
+    width: 100% !important;
+  }
+  .info_box {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact_left,
+  .contact_right {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact {
+    flex-direction: column;
+  }
+}

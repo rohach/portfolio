@@ -1,0 +1,133 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.nav_name {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.navAnimation {
+  overflow: hidden;
+}
+.navAnimationElem {
+  transform: translateY(-100%);
+}
+.right {
+  overflow: hidden;
+}
+.right_inner {
+  transform: translateY(-200%);
+}
+.menu_icon {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0.3rem 0;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  background-color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-150%);
+  z-index: 9;
+  height: 100vh;
+  margin-top: -5rem;
+}
+
+nav ul {
+  list-style: none;
+  background-color: var(--text);
+}
+
+nav ul li {
+  margin: 50px 0;
+  background-color: var(--text);
+}
+
+nav ul li a {
+  color: var(--bg);
+  background-color: var(--text);
+  color: var(--bg) !important;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  opacity: 0;
+  pointer-events: none;
+}
+
+nav ul li a:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  border-radius: 5px;
+  background-color: var(--bg);
+  bottom: -10px;
+  left: 0;
+  transform-origin: left;
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
+}
+
+nav ul li a:hover:after {
+  transform: scaleX(1);
+}
+
+nav .close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 6%;
+  right: 5%;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--text);
+}
+
+nav h2 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  opacity: 0;
+  pointer-events: none;
+  color: var(--bg) !important;
+  background-color: var(--text);
+  color: var(--bg);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+nav .close div::before,
+nav .close div::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: var(--bg) !important;
+  transition: var(--transition);
+}
+nav .close div::before {
+  transform: rotate(-45deg);
+}
+
+nav .close div::after {
+  transform: rotate(45deg);
+}
+
+nav .close:hover div::before,
+nav .close:hover div::after {
+  background-color: var(--text);
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 25px;
+  }
+}

@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Loader from "./Components/Pages/Loader/Loader";
+import { useState } from "react";
+import gsap from "gsap";
+import { useLayoutEffect } from "react";
+import Mid from "./Mid";
 
 function App() {
+  const [loaderFinished, setLoaderFinished] = useState(false);
+  const [timeline, setTimeline] = useState(null);
+
+  useLayoutEffect(() => {
+    const context = gsap.context(() => {
+      const tl = gsap.timeline({
+        onComplete: () => setLoaderFinished(true),
+      });
+      setTimeline(tl);
+    });
+
+    return () => context.revert();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {loaderFinished ? <Mid /> : <Loader timeline={timeline} />}
+
+      {/* <Loader timeline={timeline} /> */}
+    </>
   );
 }
 

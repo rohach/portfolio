@@ -1,0 +1,90 @@
+.about_container {
+  height: 120vh;
+  position: relative;
+}
+.about_container_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about_container_inner > * {
+  flex-basis: 100%;
+}
+.about_heading {
+  font-size: 3rem;
+}
+.about_me {
+  font-size: 5rem;
+}
+.about_desc {
+  font-size: 1.5rem;
+  width: 80%;
+}
+.about_image {
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
+.aboutAnimation {
+  overflow: hidden;
+}
+.aboutAnimationElem {
+  transform: translateY(100%);
+}
+.aboutAnimationWordsElem {
+  opacity: 0;
+}
+
+@media (max-width: 1024px) {
+  .about_container_inner {
+    height: 80vh;
+  }
+  .about_heading {
+    font-size: 2rem;
+  }
+  .about_me {
+    font-size: 4rem;
+  }
+  .about_desc {
+    font-size: 1rem;
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .about_container_inner {
+    flex-direction: column;
+  }
+  .about_heading {
+    font-size: 1.5rem;
+  }
+  .about_me {
+    font-size: 3.5rem;
+  }
+  .about_desc {
+    font-size: 0.85rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .about_heading {
+    font-size: 1rem;
+  }
+  .about_me {
+    font-size: 3rem;
+  }
+  .about_desc {
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  .about_right {
+    margin-top: -5rem !important;
+  }
+}

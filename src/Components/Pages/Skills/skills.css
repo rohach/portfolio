@@ -1,0 +1,44 @@
+.skills_container {
+  position: relative;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 4rem;
+}
+.skills > * {
+  min-width: 31%;
+  border-left: 1px solid var(--text);
+  height: auto;
+  padding: 1rem;
+  line-height: 1.5;
+}
+.frontend_title,
+.backend_title,
+.tools_title {
+  font-size: 2rem;
+}
+.frontend_tech,
+.backend_tech,
+.tools_tech {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+.last_box {
+  border-right: 1px solid var(--text);
+}
+@media (max-width: 1024px) {
+  .skills > * {
+    width: 48%;
+  }
+  .last_box {
+    border-right: none;
+  }
+}
+@media (max-width: 768px) {
+  .skills > * {
+    width: 100%;
+  }
+}

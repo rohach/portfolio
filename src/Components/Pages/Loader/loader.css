@@ -1,0 +1,114 @@
+.main_container {
+  width: var(--widthLg);
+  margin: 0 auto;
+}
+.loader {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+  z-index: 2;
+  background-color: var(--text);
+}
+.loader_wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  border-color: transparent !important;
+}
+.loader_words {
+  position: relative;
+  overflow: hidden;
+  height: 41.8rem;
+}
+.loader_overlay {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  z-index: 9999;
+  background: linear-gradient(
+    to bottom,
+    var(--text),
+    var(--text) 47%,
+    transparent,
+    transparent 47%,
+    transparent,
+    transparent 55%,
+    var(--text) 50%,
+    var(--text)
+  );
+}
+.loader_word {
+  display: block;
+  font-size: 2.8rem;
+  color: var(--bg) !important;
+  background-color: var(--text);
+}
+.loader_progressWrapper {
+  position: absolute;
+  background-color: var(--text);
+  bottom: 0;
+  left: 0;
+  height: 5vh;
+  width: 100%;
+  z-index: 3;
+}
+.loader_progress {
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+.loader_progressNumber {
+  position: absolute;
+  left: -5vw;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  white-space: nowrap;
+  color: var(--text) !important;
+  background-color: var(--bg);
+  font-size: 1.5rem !important;
+}
+@media screen and (max-width: 1024px) {
+  .loader_progressNumber {
+    left: -7vw;
+    font-size: 2rem !important;
+  }
+  .loader_wrapper {
+    background-color: var(--text);
+  }
+  .loader_word {
+    font-size: 3.2rem;
+  }
+  .loader_progressNumber {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .loader_word {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .loader_word {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .loader_word {
+    font-size: 3.2rem;
+  }
+}
