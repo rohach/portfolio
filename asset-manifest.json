@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d00ac56.css",
+    "main.js": "/static/js/main.d06b3193.js",
+    "static/media/e-learner.png": "/static/media/e-learner.d5dbd15e0adca6b70074.png",
+    "static/media/carmax.png": "/static/media/carmax.e6358e9c1046b50a784e.png",
+    "static/media/online.png": "/static/media/online.a46cb35bf4c2324991b3.png",
+    "static/media/me2.jpg": "/static/media/me2.846c568adf1f799ed9e1.jpg",
+    "static/media/me.jpg": "/static/media/me.2970db772aaa452bca16.jpg",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.9a92224cf7e8587622eae4fcd96e69e0.svg",
+    "main.6d00ac56.css.map": "/static/css/main.6d00ac56.css.map",
+    "main.d06b3193.js.map": "/static/js/main.d06b3193.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d00ac56.css",
+    "static/js/main.d06b3193.js"
+  ]
+}
