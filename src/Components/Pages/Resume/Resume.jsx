@@ -33,7 +33,7 @@ const Resume = () => {
           <i className="fa-solid fa-user"></i> Resume{" "}
         </div>{" "}
       </div>
-      <div className="resume_container">
+      <div className="resume_container" id="resume">
         <div className="resume_container_inner">
           <Parallax speed={-1}>
             <div className="resume_container_left">

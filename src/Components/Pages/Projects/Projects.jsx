@@ -41,7 +41,7 @@ const Projects = () => {
           <i className="fa-solid fa-user"></i> Projects{" "}
         </div>{" "}
       </div>
-      <div className="projects_container">
+      <div className="projects_container" id="projects">
         <div className="projects_container_inner">
           <div className="project_container">
             <div class="elem">

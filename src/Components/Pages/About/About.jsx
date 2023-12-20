@@ -28,7 +28,7 @@ const About = () => {
   });
   return (
     <div className="container">
-      <div className="about_container">
+      <div className="about_container" id="about">
         <div className="small_box_content">
           {" "}
           <div className="small_box">
@@ -61,13 +61,13 @@ const About = () => {
               </div>
             </div>
           </Parallax>
-          <Parallax speed={-2}>
-            <div className="about_right" data-scroll data-scroll-speed="-1">
+          <div className="about_right">
+            <Parallax speed={-2}>
               <ParallaxBanner>
                 <img src={me} alt="myImage" className="about_image" />
               </ParallaxBanner>
-            </div>
-          </Parallax>
+            </Parallax>
+          </div>
         </div>
       </div>
     </div>

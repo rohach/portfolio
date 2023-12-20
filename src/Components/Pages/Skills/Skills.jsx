@@ -10,7 +10,7 @@ const Skills = () => {
           <i className="fa-solid fa-user"></i> Skills{" "}
         </div>{" "}
       </div>
-      <div className="skills_container">
+      <div className="skills_container" id="skills">
         <div className="skills_container_inner">
           <div className="skills">
             <div className="frontend">

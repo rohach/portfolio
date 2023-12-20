@@ -26,7 +26,7 @@ const Mid = () => {
   return (
     <ParallaxProvider>
       <div className="main">
-        <div data-scroll-container ref={containerRef}>
+        <div>
           <Navbar />
           <Home />
           <About />
