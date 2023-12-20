@@ -65,15 +65,27 @@ const Home = () => {
         <div className="home_links">
           <div className="home_social">
             <ul className="home_ul ">
-              <li className="home_social_li">
-                <i className="ri-facebook-line"></i>
-              </li>
-              <li className="home_social_li">
-                <i className="ri-instagram-line"></i>
-              </li>
-              <li className="home_social_li">
-                <i className="ri-github-fill"></i>{" "}
-              </li>
+              <a
+                href="https://www.facebook.com/rohan.chaulagain.5"
+                target="_blank"
+              >
+                <li className="home_social_li">
+                  <i className="ri-facebook-line"></i>
+                </li>
+              </a>
+              <a
+                href="https://www.instagram.com/rohanchaulagain/"
+                target="_blank"
+              >
+                <li className="home_social_li">
+                  <i className="ri-instagram-line"></i>
+                </li>
+              </a>
+              <a href="https://github.com/rohach" target="_blank">
+                <li className="home_social_li">
+                  <i className="ri-github-fill"></i>{" "}
+                </li>
+              </a>
             </ul>
           </div>
           <div className="home_arrow">
