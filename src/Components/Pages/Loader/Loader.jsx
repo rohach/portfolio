@@ -13,8 +13,8 @@ const Loader = ({ timeline }) => {
     timeline &&
       timeline
         .add(introAnimation(wordGroupsRef))
-        .add(progressAnimation(progressRef, progressNumberRef), 0)
-        .add(collapseWords(loaderRef), "-=1");
+        .add(progressAnimation(progressRef, progressNumberRef), 0);
+    // .add(collapseWords(loaderRef), "-=1");
   }, [timeline]);
   return (
     <div className="loader_container">

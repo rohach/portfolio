@@ -20,13 +20,7 @@ function App() {
     return () => context.revert();
   }, []);
 
-  return (
-    <>
-      {loaderFinished ? <Mid /> : <Loader timeline={timeline} />}
-
-      {/* <Loader timeline={timeline} /> */}
-    </>
-  );
+  return <>{loaderFinished ? <Mid /> : <Loader timeline={timeline} />}</>;
 }
 
 export default App;
