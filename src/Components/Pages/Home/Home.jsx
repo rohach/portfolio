@@ -83,7 +83,7 @@ const Home = () => {
               </a>
               <a href="https://github.com/rohach" target="_blank">
                 <li className="home_social_li">
-                  <i className="ri-github-fill"></i>{" "}
+                  <i className="ri-github-fill"></i>
                 </li>
               </a>
             </ul>
