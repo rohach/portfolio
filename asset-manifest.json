@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa80fae8.css",
-    "main.js": "/static/js/main.b4e567c6.js",
+    "main.css": "/static/css/main.a66cc3e4.css",
+    "main.js": "/static/js/main.566e4d61.js",
     "static/media/e-learner.png": "/static/media/e-learner.d5dbd15e0adca6b70074.png",
     "static/media/carmax.png": "/static/media/carmax.e6358e9c1046b50a784e.png",
     "static/media/online.png": "/static/media/online.a46cb35bf4c2324991b3.png",
@@ -9,11 +9,11 @@
     "static/media/me.jpg": "/static/media/me.2970db772aaa452bca16.jpg",
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.9a92224cf7e8587622eae4fcd96e69e0.svg",
-    "main.aa80fae8.css.map": "/static/css/main.aa80fae8.css.map",
-    "main.b4e567c6.js.map": "/static/js/main.b4e567c6.js.map"
+    "main.a66cc3e4.css.map": "/static/css/main.a66cc3e4.css.map",
+    "main.566e4d61.js.map": "/static/js/main.566e4d61.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa80fae8.css",
-    "static/js/main.b4e567c6.js"
+    "static/css/main.a66cc3e4.css",
+    "static/js/main.566e4d61.js"
   ]
 }
