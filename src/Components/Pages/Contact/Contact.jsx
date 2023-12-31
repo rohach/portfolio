@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="contact">
         <div className="contact_left">
           <div className="contact_form">
-            <form id="contact_form" ref={form} onSubmit={sendEmail}>
+            <form id="contact_form" ref={form} onSubmit={sendEmail} netlify>
               <h2>Send Message</h2>
               <div className="top_section box_margin">
                 <div className="input_box ">
