@@ -9,6 +9,7 @@ import Skills from "./Components/Pages/Skills/Skills";
 import Contact from "./Components/Pages/Contact/Contact";
 import Lenis from "@studio-freight/lenis";
 import { ParallaxProvider } from "react-scroll-parallax";
+import AnimatedCursor from "react-animated-cursor";
 
 const Mid = () => {
   const containerRef = useRef(null);
@@ -27,6 +28,22 @@ const Mid = () => {
     <ParallaxProvider>
       <div className="main">
         <div>
+          <div className="mouseFollower">
+            <AnimatedCursor
+              innerSize={8}
+              outerSize={35}
+              innerScale={1}
+              outerScale={2}
+              outerAlpha={0}
+              hasBlendMode={true}
+              innerStyle={{
+                backgroundColor: "var(--dot-color)",
+              }}
+              outerStyle={{
+                border: "3px solid var(--dot-color)",
+              }}
+            />
+          </div>
           <Navbar />
           <Home />
           <About />

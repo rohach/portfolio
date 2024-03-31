@@ -55,7 +55,7 @@
   opacity: 0;
   pointer-events: none;
   height: 140%;
-  width: 30vw;
+  width: 25vw;
   z-index: 999;
   position: absolute;
   transform: translate(-50%, -50%);

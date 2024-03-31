@@ -20,6 +20,7 @@ const Skills = () => {
                 <p>- CSS</p>
                 <p>- JAVASCRIPT</p>
                 <p>- REACT JS</p>
+                <p>- ANGULAR JS</p>
                 <p>- BOOTSTRAP</p>
                 <p>- TAILWIND CSS</p>
                 <p>- STYLED COMPONENTS</p>

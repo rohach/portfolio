@@ -21,7 +21,7 @@
   transform: translateY(-200%);
 }
 .menu_icon {
-  cursor: pointer;
+  /* cursor: pointer; */
   font-size: 2rem;
   margin: 0.3rem 0;
 }
@@ -84,7 +84,7 @@ nav .close {
   position: absolute;
   top: 6%;
   right: 5%;
-  cursor: pointer;
+  /* cursor: pointer; */
   opacity: 0;
   pointer-events: none;
   background-color: var(--text);

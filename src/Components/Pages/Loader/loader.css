@@ -1,6 +1,7 @@
 .main_container {
   width: var(--widthLg);
   margin: 0 auto;
+  cursor: none;
 }
 .loader {
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
